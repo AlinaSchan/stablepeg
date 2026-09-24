@@ -1,10 +1,10 @@
 # stablepeg
 
-[![ci](https://github.com/alinaschanz/stablepeg/actions/workflows/ci.yml/badge.svg)](https://github.com/alinaschanz/stablepeg/actions/workflows/ci.yml)
+[![ci](https://github.com/AlinaSchan/stablepeg/actions/workflows/ci.yml/badge.svg)](https://github.com/AlinaSchan/stablepeg/actions/workflows/ci.yml)
 ![python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![license mit](https://img.shields.io/badge/license-MIT-2b7a74)
-[![release](https://img.shields.io/github/v/release/alinaschanz/stablepeg?color=2b7a74)](https://github.com/alinaschanz/stablepeg/releases)
-[![openssf scorecard](https://api.scorecard.dev/projects/github.com/alinaschanz/stablepeg/badge)](https://scorecard.dev/viewer/?uri=github.com/alinaschanz/stablepeg)
+[![release](https://img.shields.io/github/v/release/AlinaSchan/stablepeg?color=2b7a74)](https://github.com/AlinaSchan/stablepeg/releases)
+[![openssf scorecard](https://api.scorecard.dev/projects/github.com/AlinaSchan/stablepeg/badge)](https://scorecard.dev/viewer/?uri=github.com/AlinaSchan/stablepeg)
 
 are the stablecoins still a dollar? for each coin: spot and a 10 minute twap from its
 deepest uniswap v3 pool against usdc, what a 100k swap returns on curve 3pool, and the
@@ -39,7 +39,7 @@ depeg would not hide in a wall of numbers.
 ## install
 
 ```
-pipx install git+https://github.com/alinaschanz/stablepeg
+pipx install git+https://github.com/AlinaSchan/stablepeg
 ```
 
 or clone it and run `python -m stablepeg` from the folder. python 3.10 or newer, no dependencies.
@@ -107,8 +107,8 @@ is a depeg alert in one line; `--summary-append` is the same data as rows, one p
 
 ## see also
 
-- [bigmoves](https://github.com/alinaschanz/bigmoves): the large transfers of these coins
-- [onchain-notes](https://github.com/alinaschanz/onchain-notes), [gasweek](https://github.com/alinaschanz/gasweek), [ens-lookup](https://github.com/alinaschanz/ens-lookup)
+- [bigmoves](https://github.com/AlinaSchan/bigmoves): the large transfers of these coins
+- [onchain-notes](https://github.com/AlinaSchan/onchain-notes), [gasweek](https://github.com/AlinaSchan/gasweek), [ens-lookup](https://github.com/AlinaSchan/ens-lookup)
 - the notes: [alinaschanz.life](https://alinaschanz.life), the short version on [x](https://x.com/alinaschanz)
 
 ## verify a release
@@ -118,7 +118,7 @@ opentimestamps proof of that file, and a build provenance attestation made in gi
 flow. with the files downloaded into one folder:
 
     sha256sum -c SHA256SUMS
-    gh attestation verify ./*.whl --owner alinaschanz
+    gh attestation verify ./*.whl --owner AlinaSchan
     ots verify SHA256SUMS.ots
 
 the attestation names the commit and the workflow run that produced the file; the timestamp proves

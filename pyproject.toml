@@ -20,10 +20,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/alinaschanz/stablepeg"
+Homepage = "https://github.com/AlinaSchan/stablepeg"
 Author = "https://alinaschanz.life"
-Issues = "https://github.com/alinaschanz/stablepeg/issues"
-Changelog = "https://github.com/alinaschanz/stablepeg/blob/main/CHANGELOG.md"
+Issues = "https://github.com/AlinaSchan/stablepeg/issues"
+Changelog = "https://github.com/AlinaSchan/stablepeg/blob/main/CHANGELOG.md"
 
 [project.scripts]
 stablepeg = "stablepeg.cli:main"

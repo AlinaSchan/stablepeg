@@ -16,7 +16,7 @@ from .quoter import SIZES, depth, impact_bp
 from .rpc import Rpc, RpcError, RpcUnavailable
 from .uniswap import PoolQuote, best_pool
 
-USER_AGENT = "stablepeg/0.1 (+https://github.com/alinaschanz/stablepeg)"
+USER_AGENT = "stablepeg/0.1 (+https://github.com/AlinaSchan/stablepeg)"
 SUMMARY_FIELDS = ("date_utc", "block", "coin", "quote", "pool_fee", "spot", "twap", "liquidity", "coingecko", "curve_price")
 
 
